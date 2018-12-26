@@ -12,19 +12,19 @@
   		{ 
   			this->hour=0; 
   			this->minute=0; 
-  			this->sec=0;	 
+  			this->seconds=0;	 
   		} 
   		time(int h,int m,int s) 
   		{ 
   				this->hour=h; 
   				this-> minute=m; 
-  				this->sec=s; 
+  				this->seconds=s; 
   		} 
   		void display() 
   		{ 
   				int minute=this->minute; 
   				int hour=this->hour; 
-  				int sec=this->sec; 
+  				int sec=this->seconds; 
   			if(sec>=60) 
   			{ 
   				int i=sec/60; 
