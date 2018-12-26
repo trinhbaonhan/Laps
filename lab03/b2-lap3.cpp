@@ -24,10 +24,7 @@ class nhanvien
 };
 int main()
 {
-	nhanvien s1();
-	cout<<"nhap dia chi id cua nhan vien s1 va tien boi thuong"<<endl;
-	cin>>s1>>m;
-	//nhanvien s1(1,2500);
+	nhanvien s1(1,2500);
 	s1.tinh(3);
 }
 
